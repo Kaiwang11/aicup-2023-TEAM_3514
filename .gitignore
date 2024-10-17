@@ -1,0 +1,44 @@
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# Ignore node_modules/ (for Node.js projects)
+node_modules/
+
+# Ignore Python cache and environment files
+__pycache__/
+*.py[cod]
+*.env
+
+# Ignore compiled Java class files and JARs (for Java projects)
+*.class
+*.jar
+
+# Ignore build directories (for various languages)
+build/
+dist/
+target/
+
+# Ignore environment settings (for editors and IDEs)
+.vscode/
+.idea/
+*.swp
+
+# Ignore temporary files and swap files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Ignore .env files (for environment variables)
+.env
+
+#Ignore data
+
+./data/*
+./exp/*
